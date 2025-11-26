@@ -4,8 +4,8 @@ ID: 202514907
 Date Created: Thursday 6th November 2025
 
 This program is a language convert tool for Python Primary School students that
-converts English words in Chis-words. The purpose of this tool is to help 
-students develop their understanding of word structure
+converts English words in Chis-words. The purpose of this tool is to help
+students develop their understanding of word structure.
 """
 
 vowels = ['a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U']
@@ -13,7 +13,7 @@ specialCharacters = "1234567890`~!@#$%^&*()-_=+[]{}\\|;:'\",<>./?"
 suffix1 = "ay"
 suffix2 = "way"
 
-file = open("EnglishWords.txt", 'r')
+file = open("inputwords.txt", 'r')
 englishWords = file.read()
 englishWords = englishWords.split()
 
