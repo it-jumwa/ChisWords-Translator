@@ -3,8 +3,8 @@ Name: Jaimee Molina
 ID: 202514907
 Date Created: Thursday 6th November 2025
 
-This program is a language convert tool for Python Primary School students that
-converts English words in Chis-words. The purpose of this tool is to help
+This program is a language converter tool for Python Primary School students
+that converts English words in Chis-words. The purpose of this tool is to help
 students develop their understanding of word structure.
 """
 
