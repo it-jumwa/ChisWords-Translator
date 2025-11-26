@@ -19,13 +19,13 @@ englishWords = englishWords.split()
 
 for word in reversed(englishWords):
     index = englishWords.index(word)
+    # Remove leading and trailing special characters
     filteredWord = word.strip(specialCharacters)
 
     # If there is an empty string, remove it
     if len(filteredWord) == 0:
         englishWords.remove(word)
-    # Otherwise, remove leading and trailing special characters and replace
-    # the word in the list
+
     else:
         englishWords[index] = filteredWord
 
